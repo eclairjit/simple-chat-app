@@ -8,7 +8,7 @@ const httpServer = app.listen(PORT, () => {
 	console.log(`Server is running on port ${PORT}`);
 });
 
-// create a web spcket server
+// create a web socket server
 const wss = new WebSocketServer({ server: httpServer });
 
 /*
